@@ -12,29 +12,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">  
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" style="padding: 0px;">
-      <a class="navbar-brand" style="font-family: 'Poppins', sans-serif"; href="#">SearchBooks</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#search">Search</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#explore">Explore</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
+    <header>
+      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" style="padding: 10px;">
+        <a class="navbar-brand" style="font-family: 'Poppins', sans-serif"; href="#">SearchBooks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#search">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore">Explore</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
     <section id="home">
-      <h1>BookSearch</h1>
-      <p>Search by ISBN, name of book/author, category.</p>
+      <div class="containerHome">
+        <div class="rowHome1">
+          <div class="col-sm-6" style="color: rgb(89, 89, 228)">
+            <h1>Search Books</h1>
+            <p>Search by ISBN, name of book/author, category.</p>
+          </div>
+          
+          <div class="col-sm-6">
+            <img src="neonbrand-uEcSKKDB1pg-unsplash.jpg" class="img-responsive" style="width:100%;">
+          </div>
+
+        </div>
+      </div>
     </section>
 
     <section id="search">
