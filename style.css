@@ -1,21 +1,21 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    background-color: white;
     text-align: center;
     color: #595959;
+    border: 30px;
 }
 
 h1{
     text-align: left;
-    padding: 10px;
+    padding: 20px;
     color: #011f4b;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 70px;
 }
 
 p{
-    padding: 20px;
+    padding: 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     letter-spacing: 2px;
@@ -34,13 +34,13 @@ header{
     color: #b3cde0;
 }
 .containerHome{
-    color:#03396c;
+    background-color:#066bc9;
 }
 
 .containerSearch{
-    color:white;
+    background-color:white;
 }
 
 .containerExplore{
-    color:#03396c;
+    background-color:#066bc9;
 }
