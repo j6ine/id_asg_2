@@ -8,7 +8,6 @@ body{
 
 h1{
     padding: 20px;
-    color: #011f4b;
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
 }
@@ -20,52 +19,49 @@ p{
     color: #595959;
 }
 
-h2{
-    padding: 20px;
-    font-family: 'Roboto Mono', monospace;
-    color: #011f4b;
-    font-size: 18px;
-}
-
 header{
     color: #b3cde0;
 }
 
-.containerHome{
+.card{
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-img-top{
+    height: 150px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.containerHome, .containerSearch, .containerExplore, .containerRandom{
     height: 100%;
     padding: 20px;
-    background-color:#066bc9;
 }
 
-.containerSearch{
+.containerHome, .containerSearch,.containerRandom h1{
+    color: black;
+
+}
+
+.containerExplore h1{
+    color: white;
+}
+.containerExplore h2{
+    color: white;
     padding: 20px;
-    padding-bottom: 100px;
-    background-color: #3984ca;
+    font-family: 'Roboto Mono', monospace;
 }
 
-form{ 
-    text-align: center;
-}
-.containerExplore{
-    padding: 20px;
-    background-color:#82a8cc;
+#explore container{
+    background-color: white;
+    box-shadow: 5px 10px lightblue;
 }
 
-.featuredResults{
+#explore row {
     background-color: white;
     border-radius: 24px;
     padding: 20px;
-}
-
-.featuredResult{
-    whi
-}
-
-.featuredImg{
-
-}
-
-
-.featuredTitle{
-    
+    box-shadow: 5px 10px lightblue;
 }

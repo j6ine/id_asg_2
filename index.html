@@ -29,6 +29,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#explore">Explore</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#random">Random Book Generator</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -38,10 +41,11 @@
       <div class="containerHome" style="background-image: url('home.jpg');">
         <div class="rowHome1">
           <div class="col-lg-12">
-            <h1>Search Books</h1>
-            <p>Search by ISBN, name of book/author, category.</p>
-            <a class="btn btn-primary" href="#search" role="button">Search</a>
-            <a class="btn btn-primary" href="#explore" role="button">Explore</a>
+            <h1>R</h1>
+            <h1>E</h1>
+            <h1>A</h1>
+            <h1>D</h1>
+
           </div>
   
 
@@ -50,12 +54,12 @@
     </section>
 
     <section id="search">
-      <div class="containerSearch">
-        <div class="col-lg-12" style="color:#03396c;">
+      <div class="containerSearch" style="background-color: white;">
+        <div class="col-lg-12">
           <h1>Search</h1>
           <form class="form-inline my-2 my-lg-0" id="searchForm">
-            <input class="form-control mr-sm-2 searchInput" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 searchBtn" type="submit">Search</button>
+            <input class="form-control mr-sm-2 searchInput" type="search" placeholder="Search" aria-label="Search" style="text-align: center;">
+            <button class="btn btn-outline-success my-2 my-sm-0 searchBtn" type="submit" style="text-align: center;">Search</button>
           </form>
         </div>
 
@@ -72,48 +76,72 @@
     
 
     <section id="explore">
-      <div class="containerExplore">
+      <div class="containerExplore" style="background-color: black;">
         <div class="col-lg-12">
           <h1>Explore Books</h1>
-          
-          <article class="featured" style="align-items: left;">
+
+          <article class="featured">
             <h2>Featured Books</h2>
-            <div class="featuredResults">
-              <div class="featuredResult">
-                <img src="great-gatsby.jpg" class="img-thumbnail featuredImg" alt="Cover" style="height: 120px;"><br>
-                <p class="featuredTitle">The Great Gatsby</p>
+            <div class="container">
+              <div class="row">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">The Great Gatsby</h5>
+                    <p class="card-text">By F. Scott Fitzgerald</p>
+                    <a href="https://books.google.com.sg/books?id=N1JODwAAQBAJ&printsec=frontcover&dq=great+gatsby&hl=en&sa=X&ved=2ahUKEwjL6vLx8P7tAhUWgdgFHbyRDakQ6AEwAHoECAQQAg#v=onepage&q=great%20gatsby&f=false" class="btn btn-primary">Read More</a> 
+                  </div>
+                </div>
               </div>
-              <div class="featuredResult">
-                <img src="great-gatsby.jpg" class="img-thumbnail featuredImg" alt="Cover" style="height: 120px;"><br>
-                <p class="featuredTitle">The Great Gatsby</p>
-              </div>
-               
             </div>
-          </article>
-
-          <article class="recommended">
-            <h2>Recommended for you</h2>
-            
-
-          </article>
-
-          <article class="popular">
-            <h2>Popular Books</h2>
-            
-
           </article>
 
           <article class="newThisMonth">
             <h2>New releases this month</h2>
-            
-
+            <div class="container">
+              <div class="row">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">The Great Gatsby</h5>
+                    <p class="card-text">By F. Scott Fitzgerald</p>
+                    <a href="#" class="btn btn-primary">Read More</a> 
+                  </div>
+                </div>
+              </div>
+            </div>
           </article>
+
+          <article class="bookToMovie">
+            <h2>Books that has been adapted to Movies</h2>
+            <div class="container">
+              <div class="row">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">The Great Gatsby</h5>
+                    <p class="card-text">By F. Scott Fitzgerald</p>
+                    <a href="#" class="btn btn-primary">Read More</a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
 
       
-      
+    <section id="random">
+      <div class="containerRandom" style="background-color: white;">
+        <div class="col-lg-12">
+          <h1>Random Book Generator</h1>
+
+
+        </div>
+      </div>  
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
