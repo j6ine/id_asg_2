@@ -35,16 +35,15 @@
     </header>
   
     <section id="home">
-      <div class="containerHome">
+      <div class="containerHome" style="background-image: url('home.jpg');">
         <div class="rowHome1">
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <h1>Search Books</h1>
             <p>Search by ISBN, name of book/author, category.</p>
+            <a class="btn btn-primary" href="#search" role="button">Search</a>
+            <a class="btn btn-primary" href="#explore" role="button">Explore</a>
           </div>
-          
-          <div class="col-lg-6">
-            <img src="neonbrand-uEcSKKDB1pg-unsplash.jpg" class="img-responsive" style="width:100%;">
-          </div>
+  
 
         </div>
       </div>
@@ -54,31 +53,42 @@
       <div class="containerSearch">
         <div class="col-lg-12" style="color:#03396c;">
           <h1>Search</h1>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <form class="form-inline my-2 my-lg-0" id="searchForm">
+            <input class="form-control mr-sm-2 searchInput" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 searchBtn" type="submit">Search</button>
           </form>
-
         </div>
+
+        <div class="card" id="cardResult" style="width: 18rem;">
+          <img class="card-img-top">
+          <div class="card-body">
+        
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <section class="searchResults">
-      <span class="border-bottom"></span>
-
-    </section>
+    
 
     <section id="explore">
       <div class="containerExplore">
         <div class="col-lg-12">
           <h1>Explore Books</h1>
           
-          <article class="featured">
+          <article class="featured" style="align-items: left;">
             <h2>Featured Books</h2>
-              <div class="featuredResult"> <!--add border -->
-                  <img class="featuredImg">
-                  <h3 class="bookTitle"></h3> 
+            <div class="featuredResults">
+              <div class="featuredResult">
+                <img src="great-gatsby.jpg" class="img-thumbnail featuredImg" alt="Cover" style="height: 120px;"><br>
+                <p class="featuredTitle">The Great Gatsby</p>
               </div>
+              <div class="featuredResult">
+                <img src="great-gatsby.jpg" class="img-thumbnail featuredImg" alt="Cover" style="height: 120px;"><br>
+                <p class="featuredTitle">The Great Gatsby</p>
+              </div>
+               
+            </div>
           </article>
 
           <article class="recommended">

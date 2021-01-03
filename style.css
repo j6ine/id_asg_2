@@ -7,7 +7,6 @@ body{
 }
 
 h1{
-    text-align: left;
     padding: 20px;
     color: #011f4b;
     font-family: 'Poppins', sans-serif;
@@ -15,7 +14,6 @@ h1{
 }
 
 p{
-    padding: 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     letter-spacing: 2px;
@@ -27,20 +25,47 @@ h2{
     font-family: 'Roboto Mono', monospace;
     color: #011f4b;
     font-size: 18px;
-    text-align: left;
 }
 
 header{
     color: #b3cde0;
 }
+
 .containerHome{
+    height: 100%;
+    padding: 20px;
     background-color:#066bc9;
 }
 
 .containerSearch{
-    background-color:white;
+    padding: 20px;
+    padding-bottom: 100px;
+    background-color: #3984ca;
 }
 
+form{ 
+    text-align: center;
+}
 .containerExplore{
-    background-color:#066bc9;
+    padding: 20px;
+    background-color:#82a8cc;
+}
+
+.featuredResults{
+    background-color: white;
+    border-radius: 24px;
+    padding: 20px;
+}
+
+.featuredResult{
+    whi
+}
+
+.featuredImg{
+
+}
+
+
+.featuredTitle{
+    
 }
