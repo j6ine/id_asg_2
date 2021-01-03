@@ -54,14 +54,12 @@ header{
     font-family: 'Roboto Mono', monospace;
 }
 
-#explore container{
-    background-color: white;
+#explore .container{
+    color: white;
     box-shadow: 5px 10px lightblue;
 }
 
-#explore row {
+#explore .row {
     background-color: white;
-    border-radius: 24px;
     padding: 20px;
-    box-shadow: 5px 10px lightblue;
 }
