@@ -7,38 +7,67 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" style="padding: 10px;">
-        <a class="navbar-brand" style="font-family: 'Poppins', sans-serif"; href="#">SearchBooks</a>
+    <!--nav bar-->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 10px; text-align: left;">
+        <a class="navbar-brand" style="font-family: 'Poppins', sans-serif; color: #7DB46CFF; text-shadow: 2px 2px #ABD6DFFF;" ; href="#">SearchBooks</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#home">
+                <i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#search">Search</a>
+              <a class="nav-link" href="#search">
+                <i class="fas fa-search"></i>Search</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#explore">Explore</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#search" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#explore" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Explore
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#random">Random Book Generator</a>
+              <a class="nav-link" href="#random">
+                <i class="fas fa-random"></i>Random Book Generator</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
   
+    <!--home-->
     <section id="home">
-      <div class="containerHome" style="background-image: url('home.jpg');">
+      <div class="containerHome" style="background-image: url('homeBG.jpg');">
         <div class="rowHome1">
           <div class="col-lg-12">
             <h1>R</h1>
@@ -53,8 +82,9 @@
       </div>
     </section>
 
+    <!--search-->
     <section id="search">
-      <div class="containerSearch" style="background-color: white;">
+      <div class="containerSearch" style="background-color: #E7EBE0FF;">
         <div class="col-lg-12">
           <h1>Search</h1>
           <form class="form-inline my-2 my-lg-0" id="searchForm">
@@ -70,13 +100,13 @@
           </div>
         </div>
 
+        <h1></h1>
       </div>
     </section>
 
-    
-
+    <!--explore-->
     <section id="explore">
-      <div class="containerExplore" style="background-color: black;">
+      <div class="containerExplore" style="background-color:  #ABD6DFFF;;">
         <div class="col-lg-12">
           <h1>Explore Books</h1>
 
@@ -84,7 +114,7 @@
             <h2>Featured Books</h2>
             <div class="container">
               <div class="row">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 14rem;">
                   <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">The Great Gatsby</h5>
@@ -92,16 +122,6 @@
                     <a href="https://books.google.com.sg/books?id=N1JODwAAQBAJ&printsec=frontcover&dq=great+gatsby&hl=en&sa=X&ved=2ahUKEwjL6vLx8P7tAhUWgdgFHbyRDakQ6AEwAHoECAQQAg#v=onepage&q=great%20gatsby&f=false" class="btn btn-primary">Read More</a> 
                   </div>
                 </div>
-
-                <div class="row">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">The Great Gatsby</h5>
-                      <p class="card-text">By F. Scott Fitzgerald</p>
-                      <a href="https://books.google.com.sg/books?id=N1JODwAAQBAJ&printsec=frontcover&dq=great+gatsby&hl=en&sa=X&ved=2ahUKEwjL6vLx8P7tAhUWgdgFHbyRDakQ6AEwAHoECAQQAg#v=onepage&q=great%20gatsby&f=false" class="btn btn-primary">Read More</a> 
-                    </div>
-                  </div>
               </div>
             </div>
           </article>
@@ -110,51 +130,55 @@
             <h2>New releases this month</h2>
             <div class="container">
               <div class="row">
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">The Great Gatsby</h5>
-                    <p class="card-text">By F. Scott Fitzgerald</p>
-                    <a href="#" class="btn btn-primary">Read More</a> 
-                  </div>
+
                 </div>
               </div>
             </div>
           </article>
+          <h1></h1>
 
           <article class="bookToMovie">
             <h2>Books that has been adapted to Movies</h2>
             <div class="container">
               <div class="row">
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">The Great Gatsby</h5>
-                    <p class="card-text">By F. Scott Fitzgerald</p>
-                    <a href="#" class="btn btn-primary">Read More</a> 
-                  </div>
+
                 </div>
               </div>
             </div>
           </article>
+          <h1></h1>
 
         </div>
       </div>
     </section>
 
-      
+    <!--random-->
     <section id="random">
-      <div class="containerRandom" style="background-color: white;">
+      <div class="containerRandom" style="background-color: #E7EBE0FF;">
         <div class="col-lg-12">
           <h1>Random Book Generator</h1>
 
-
+            <div class="container" style="text-align: center;">
+              <div class="row">
+                <div class="card" style="width: 14rem;">
+                  <img class="card-img-top" src="great-gatsby.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">The Great Gatsby</h5>
+                    <p class="card-text">By F. Scott Fitzgerald</p>
+                    <a href="https://books.google.com.sg/books?id=N1JODwAAQBAJ&printsec=frontcover&dq=great+gatsby&hl=en&sa=X&ved=2ahUKEwjL6vLx8P7tAhUWgdgFHbyRDakQ6AEwAHoECAQQAg#v=onepage&q=great%20gatsby&f=false" class="btn btn-primary">Generate</a> 
+                  </div>
+                </div>
+              </div>
+              <h1></h1>
+              
+            </div>  
         </div>
-      </div>  
+      </div>
+  
     </section>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="script.js"></script>
