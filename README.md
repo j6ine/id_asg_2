@@ -30,8 +30,10 @@ To discover books, other features include Random Book Generator and Exploring in
 
 #### Features to Implement in the future
 * Use API key so the results include user-specific information, such as purchased status. More personalized.
-
 * Recommended Book - allows users to get recommendations related to books to what they have searched before.
+* Specific Search - specifically by ISBN or Name of Author/book. 
+* Specific Random Book generator - generate a book from chosen genre chosen by user.
+* Explore books from a list of Genres - in the footer or/and nav bar.
 
 
 ## Technologies used
