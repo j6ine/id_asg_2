@@ -1,42 +1,18 @@
-$(document).ready(function(){	
+function bookSearch(){
+    var search = $('.search-text').value;
+    $('.search-result').innerHTML = ""
+    console.log(search)
 
-  $("#searchForm").submit(function(){
+    $.ajax({
+        url: "https://www.googleapis.com/books/v1/volumes?=" + search,
+        dataType: "json",
 
-    var search = $(".searchInput").val();
-    if(search == "")
-    {
-      alert("Please enter something in the field");
-    }
+        success: function(data){
+            console.log(data)
+        },
 
-    else
-    {		
-      var url = "";
-      var img = "";
-      var title = "";
-      var author = "";
-      var bttn = "";
+        type: 'GET'
+    });
+}
 
-      $.get("https://www.googleapis.com/books/v1/volumes?q=" + search,function(response){
-        for(i=0;i<response.items.length;i++)
-        {
-          title=$('<h5 class="card-title">' + response.items[i].volumeInfo.title + '</h5>');  
-          author=$('<p class="card-text"> By:' + response.items[i].volumeInfo.authors + '</p>');
-          img = $('<a href="#" class="btn btn-primary">Read More' + response.items[i].volumeInfo.infoLink + '</a>'); 	
-          url= response.items[i].volumeInfo.imageLinks.thumbnail;
-          img.attr('src', url);
-
-          title.appendTo('#cardResult.card-body');
-          author.appendTo('#cardResult.card-body');
-          img.appendTo('#cardResult.card-body');
-
-          <img class="card-img-top" src="" alt="Card image cap"></img>
-        }
-
-      });
-      
-    }
-    
-    return false;
-  });
-
-});
+document.getElementsByClassName('search-btn').addEventListener('click', bookSearch, false);
