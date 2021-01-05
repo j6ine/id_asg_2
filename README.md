@@ -6,20 +6,17 @@ To discover books, other features include Random Book Generator and Exploring in
 #### Insights about The Design Process
 
 #### Target Audience
-The site's users are fans and potential fans who wish to learn more about the band's history and the band members, and possibly book them for shows.
+
 
 #### Needs of Target Audience and how do I achieve them?
 
 
-#### Adobe XD Wireframe
-<address>
-
 
 ## Features
 #### Existing Features
-* Book Search - allows user to get more information about a book, by having them fill out the search box. Information provided includes
-
-* Search Book - allows user to get more information about a book, by having them fill out the search box. Information provided includes
+* Book Search - allows user to get more information about a book, by having them fill out the search box.
+* Read More - user is redirected to Google Books Site to get more information about a book.
+* Random Book Generator - generates a random book. 
 
 
 #### Features to Implement in the future
@@ -33,13 +30,23 @@ The site's users are fans and potential fans who wish to learn more about the ba
   * The project uses CSS to describe the presentation of the Web pages, including colors, layout, and fonts
 
 * JQuery
-  * The project uses JQuery to simplify DOM manipulation.
+  * Used for DOM manipulation.
+  * Used for event handling.
+  * Used for animation
+  * Used for Ajax when working with google books api.
+  * 
+
 
 * Bootstrap
-  * The project uses Bootstrap to 
-
+  * Ensure the website is responsive using Flexbox Grid.
+  * Includes Navigation Bar Template.
+  * Includes Button Template for.
+  * Includes Navigation Bar Template.
+  *
+  *
+  
 * Google Books API
-  * The project uses Google Books API to 
+  * The project uses Google Books API to search and access book content, as well as to create and view personalization around that content.
 
 ## Testing
 #### How the project looks and works on different browsers and screen sizes
@@ -57,8 +64,9 @@ split it off into a separate file and link to it from here if its too long.
 * here
 
 #### Media
-* here
+* Photo in home page taken from Unsplash https://unsplash.com/photos/uEcSKKDB1pg
 
 #### Acknoledgements
-* here
+* Color combination taken from Design Wizard https://www.designwizard.com/blog/design-trends/colour-combination
+* To get the api key, Privacy Policy and Terms & Conditions generated using https://app.privacypolicies.com/
 
