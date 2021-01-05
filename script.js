@@ -1,21 +1,55 @@
-$(document).ready(function(){
-    $('.search-btn').submit(function(){
-        var search = $('.search-text').val;
+/* performing a search - future implement: concat eg. q=blah+intitle:blah+subject:
+var seacrh = 
+var searchBy = ["byIsbn", "byAuthor", "byName", "byPart", "by"]
+var searchby = ["intitle:", "inauthor:", "inpublisher:", "subject:", "isbn:", "lccn:", "oclc:"]
 
-        if (search == '')
-        {
-            alert("Please enter something in the field first.");
-        }
+if 
 
-        else{
-            var url ='';
-            var img ='';
-            var title ='';
-            var author =''
-            
-            $.get("https://www.googleapis.com/books/v1/volumes?=" + search){
-                
-            }
-        }
-    }
-});
+else if
+
+
+"https://www.googleapis.com/books/v1/volumes?q=" + searchBy + search
+
+
+
+*/
+
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+function bookSearch(){
+    var search = $('.search-text').value;
+    $('.search-result').innerHTML = ""
+
+    console.log(search)
+
+    $.ajax({
+        url: "https://www.googleapis.com/books/v1/volumes?=" + search,
+        dataType: "json",
+
+        success: function(data){
+            console.log(data)
+        },
+
+        type: 'GET'
+    });
+}
+
+
+var searchBtn = document.getElementsByClassName('search-btn');
+
+for (var i = 0; i < searchBtn.length; i++) {
+    searchBtn[i].addEventListener('click', bookSearch); 
+ }
+ 
+ 
