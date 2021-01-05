@@ -84,12 +84,13 @@
         <div class="containerSearch" style="background-color: #E7EBE0FF;">
           <h1>Search</h1>
             <form class="form-inline align-centre-parent" style="margin: auto;">
-              
-              <input class="form-control mr-sm-2 align-centre-child search-text" type="search" placeholder="Search" aria-label="Search">
-              <div class="btn-group align-centre-child">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Search by
-                </button>
+    
+              <input class="form-control mr-sm-2 align-centre-child search-text" style="border-color: #7DB46CFF;" type="search" placeholder="Search" aria-label="Search">
+
+              <div class="btn-group dropdown" style="margin: 20px;">
+                <button type="button" class="btn btn-secondary dropdown-toggle search-btn" data-toggle="dropdown" 
+                type="submit" style="background-color: #7DB46CFF; border-color: #7DB46CFF;" aria-haspopup="true" aria-expanded="false"> Search by </button>
+                
                 <div class="dropdown-menu dropdown-menu-right">
                   <a class="dropdown-item" href="#">ISBN</a>
                   <a class="dropdown-item" href="#">Part of Book Name</a>
@@ -101,7 +102,6 @@
                 </div>
               </div>
 
-              <button class="btn btn-outline-success my-2 my-sm-0 align-centre-child search-btn" type="submit">Search</button>
             </form> 
 
             <div class="search-result"></div>
