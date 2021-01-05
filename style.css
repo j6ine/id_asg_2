@@ -28,6 +28,8 @@ header{
     background-color: #7DB46CFF;
 }
 
+/* input form */
+/* cards */
 .card{
     display:inline-block;
     padding-left: 20px;
@@ -48,9 +50,10 @@ header{
 }
 
 .card:hover{
-    background-color: rgb(196, 206, 214);
+    background-color: #EDC2D8FF;
 }
 
+/* containers */
 .containerHome, .containerSearch, .containerExplore, .containerRandom{
     height: 100%;
     padding: 20px;
@@ -74,9 +77,23 @@ header{
 #explore .container{
     color: white;
     box-shadow: 5px 10px #669DB3FF;
+    overflow-y:hidden;
+    overflow-x:scroll;
 }
 
 #explore .row {
     background-color: white;
     padding: 20px;
+}
+
+/* other */
+.align-centre-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* media queries */
+@media (max-width: 576px) {  
+    
 }

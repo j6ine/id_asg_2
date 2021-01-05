@@ -1,18 +1,21 @@
-function bookSearch(){
-    var search = $('.search-text').value;
-    $('.search-result').innerHTML = ""
-    console.log(search)
+$(document).ready(function(){
+    $('.search-btn').submit(function(){
+        var search = $('.search-text').val;
 
-    $.ajax({
-        url: "https://www.googleapis.com/books/v1/volumes?=" + search,
-        dataType: "json",
+        if (search == '')
+        {
+            alert("Please enter something in the field first.");
+        }
 
-        success: function(data){
-            console.log(data)
-        },
-
-        type: 'GET'
-    });
-}
-
-document.getElementsByClassName('search-btn').addEventListener('click', bookSearch, false);
+        else{
+            var url ='';
+            var img ='';
+            var title ='';
+            var author =''
+            
+            $.get("https://www.googleapis.com/books/v1/volumes?=" + search){
+                
+            }
+        }
+    }
+});
