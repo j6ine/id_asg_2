@@ -53,8 +53,7 @@ To discover books, other features include Random Book Generator and Exploring in
   * Includes Navigation Bar Template.
   * Includes Button Template and search input box.
   * Includes Navigation Bar Template.
-  * 
-  *
+  
   
 * Google Books API
   * The project uses Google Books API to search and access book content. 
@@ -62,10 +61,10 @@ To discover books, other features include Random Book Generator and Exploring in
   * No call limit. Performing a search does not require authentication, so you do not have to provide the Authorization HTTP header with the GET request. 
   
 * Adobe XD
- * Used to create wireframe (found in network folder).
+  * Used to create wireframe (found in network folder).
  
 * Google Fonts
- * 
+  * 
  
 ## Testing
 #### How the project looks and works on different browsers and screen sizes
@@ -77,10 +76,10 @@ To discover books, other features include Random Book Generator and Exploring in
 #### Bugs/Problems discovered during testing
 * Search Form not in the middle. (found 2/1/21)
   * Added text-align at differed css tags (didnt work)
-  * Added container class and added css property flex to fix it (fixed 2/1/21) 
+  * Added container class and added css property flex to fix it (__fixed__ 2/1/21) 
 * Each page was not spaced enough. (found 3/1/21)
   * Added empty h1 tag (didnt work. weird)
-  * Added br tag (fixed 3/1/21)
+  * Added br tag (__fixed__ 3/1/21)
  
 * For width<400, the background is not filling up the whole page. (found 4/1/21)
   * I tried to switch bootstrap <div class="col-lg-12"> to <div class="col-xs-12"> (didnt work)
