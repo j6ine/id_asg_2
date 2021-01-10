@@ -20,7 +20,7 @@ People who are trying to find out more about a book. Also for people trying to e
 #### Existing Features
 * Book Search - allows user to get more information about a book, by having them fill out the search box.
 * Read More - user is redirected to Google Books Site to get more information about a book.
-* Random Book Generator - generates a random book. 
+* Random Book Generator - generates a random book. (doesnt work for now)
 
 
 #### Features to Implement in the future
@@ -43,7 +43,7 @@ People who are trying to find out more about a book. Also for people trying to e
   * Used for event handling.
   * Used for animation
   * Used for Ajax when working with google books api.
-  * 
+
 
 * Bootstrap
   * Ensure the website is responsive using Flexbox Grid.
@@ -91,8 +91,8 @@ Works okay.
  
 * Icons do not work. (found 2/1/21)
 
-* api calls not working (found 2/1/21)
-  
+* Api calls not working (found 2/1/21)
+ 
  
 ## Credits
 #### Content
