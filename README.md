@@ -9,17 +9,12 @@ To discover books, other features include Random Book Generator and Exploring in
   * Blue and Green - Colorful and lively like how reading can make people feel (final)
 
 * Typography
-  * Roboto - 
-  * Open sans -
-
+  * Roboto 
+  * Open sans 
 
 
 #### Target Audience
-
-
-#### Needs of Target Audience and how do I achieve them?
-
-
+People who are trying to find out more about a book. Also for people trying to explore books to read. 
 
 ## Features
 #### Existing Features
@@ -69,17 +64,18 @@ To discover books, other features include Random Book Generator and Exploring in
   * Roboto https://fonts.google.com/specimen/Roboto
   * Open Sans https://fonts.google.com/specimen/Open+Sans
  
- * Postman
- 
- * AJAX
+* Postman
+  * Used to test api calls.
+  
  
  
 ## Testing
 #### How the project looks and works on different browsers and screen sizes
 * Firefox
+Works okay.
 
 * Chrome Window Resizer tool      
-
+Works okay.
 
 #### Bugs/Problems discovered during testing
 * Search Form not in the middle. (found 2/1/21)
@@ -96,7 +92,7 @@ To discover books, other features include Random Book Generator and Exploring in
 * Icons do not work. (found 2/1/21)
 
 * api calls not working (found 2/1/21)
-
+  
  
 ## Credits
 #### Content
@@ -107,3 +103,4 @@ To discover books, other features include Random Book Generator and Exploring in
 * Photo in home page taken from Unsplash https://unsplash.com/photos/uEcSKKDB1pg
 
 #### Acknoledgements
+* Google
