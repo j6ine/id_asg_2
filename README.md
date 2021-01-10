@@ -66,7 +66,13 @@ To discover books, other features include Random Book Generator and Exploring in
   * Used to create wireframe (found in network folder).
  
 * Google Fonts
-  * 
+  * Roboto https://fonts.google.com/specimen/Roboto
+  * Open Sans https://fonts.google.com/specimen/Open+Sans
+ 
+ * Postman
+ 
+ * AJAX
+ 
  
 ## Testing
 #### How the project looks and works on different browsers and screen sizes
@@ -89,14 +95,13 @@ To discover books, other features include Random Book Generator and Exploring in
  
 * Icons do not work. (found 2/1/21)
 
+* api calls not working (found 2/1/21)
 
  
 ## Credits
 #### Content
 * Color combination inspiration from Design Wizard https://www.designwizard.com/blog/design-trends/colour-combination
 * To get the api key, Privacy Policy and Terms & Conditions were generated using https://app.privacypolicies.com/
-* Roboto from Google fonts https://fonts.google.com/specimen/Roboto
-* Open Sans from Google fonts https://fonts.google.com/specimen/Open+Sans
 
 #### Media
 * Photo in home page taken from Unsplash https://unsplash.com/photos/uEcSKKDB1pg
