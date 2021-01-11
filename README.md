@@ -44,13 +44,11 @@ People who are trying to find out more about a book. Also for people trying to e
   * Used for animation
   * Used for Ajax when working with google books api.
 
-
 * Bootstrap
   * Ensure the website is responsive using Flexbox Grid.
   * Includes Navigation Bar Template.
   * Includes Button Template and search input box.
   * Includes Navigation Bar Template.
-  
   
 * Google Books API
   * The project uses Google Books API to search and access book content. 
@@ -93,6 +91,8 @@ Works okay.
 
 * Api calls not working (found 2/1/21)
   * Api call successful (__fixed__ 11/1/2021)
+ 
+* Api is not showing more than 1 result & it is showing the wrong result (found 11/1/1)
  
  
 ## Credits
