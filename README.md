@@ -92,6 +92,7 @@ Works okay.
 * Icons do not work. (found 2/1/21)
 
 * Api calls not working (found 2/1/21)
+  * Api call successful (__fixed__ 11/1/2021)
  
  
 ## Credits
@@ -104,3 +105,4 @@ Works okay.
 
 #### Acknoledgements
 * Google
+* Mr Andy for helping me debug
